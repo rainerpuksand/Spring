@@ -9,6 +9,9 @@ import java.util.List;
 
 public interface ReservationRepository extends
 
+        //first argument is Etinity
+        //second is primary key
+
         JpaRepository <Reservation, Long> {
 
 }
