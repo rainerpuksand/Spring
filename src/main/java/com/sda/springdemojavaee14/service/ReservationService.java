@@ -22,5 +22,10 @@ public class ReservationService {
         log.info("finding all reservations");
 
         return reservationRepository.findAll();
-    }
+
+            }
+
+            public Reservation findReservationById(Long reservationId){
+        return  null;
+            }
 }
